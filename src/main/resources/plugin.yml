@@ -1,0 +1,4 @@
+name: CustomModelAPI
+version: 1.0-SNAPSHOT
+main: io.github.magiccheese1.custommodelapi.CustomModelAPI
+api-version: 1.17
