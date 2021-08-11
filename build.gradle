@@ -1,3 +1,5 @@
+import org.gradle.api.JavaVersion
+
 plugins {
     id 'java'
     id "com.github.johnrengelman.shadow" version "7.0.0"
@@ -7,7 +9,7 @@ plugins {
 group = 'io.github.magiccheese1'
 version = '1.0-SNAPSHOT'
 
-sourceCompatibility = targetCompatibility = JavaVersion.VERSION_16
+sourceCompatibility = targetCompatibility = JavaVersion.VERSION_11
 
 repositories {
     mavenCentral()
