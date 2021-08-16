@@ -37,18 +37,6 @@ shadowJar {
     relocate("co.aikar.locales", "io.github.magiccheese1.custommodelapi.locales")
 }
 
-publishing {
-    publications {
-        maven(MavenPublication) {
-            group = 'io.github.magiccheese1'
-            artifactId = 'custommodelapi'
-            version = '1.0'
-
-            from components.java
-        }
-    }
-}
-
 tasks.build.dependsOn tasks.shadowJar
 
 
